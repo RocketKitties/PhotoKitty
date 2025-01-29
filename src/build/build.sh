@@ -1,7 +1,7 @@
 # define directories
 #
-src=../../sharedigm
-dest=../../sharedigm-built
+src=../../photokitty
+dest=../../photokitty-built
 
 #
 # functions
