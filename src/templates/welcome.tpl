@@ -1,18 +1,47 @@
 <div class="primary colored section">
 	<div class="row">
 		<div class="col-sm-6">
-			<h2><img class="icon" src="images/logos/icon.svg" />What is <%= application.name %>?</h2>
+			<h1><img class="icon" src="images/logos/icon.svg" />What is <%= application.name %>?</h1>
 
 			<div class="well">
-				<b>kitty</b> (noun): a collection of goods often made up of small contributions
+				<b>kitty</b> (noun): a collection of goods often made up of small contributions, comes from the idea of a container or "kit".
 			</div>
 
-			<p><%= application.name %> is a cloud-based photo management and sharing system that makes organizing and sharing your photos easy.  Best of all, you can run on your own server! </p>
+			<p><%= application.name %> is a cloud-based photo management and sharing system that makes organizing and sharing your photos easy.  Best of all, you can run on your own server. </p>
 		</div>
 		<div class="col-sm-6">
 			<div class="figure">
-				<a href="images/info/desktop/desktop.png" target="_blank" class="lightbox" title="<%= application.name %>"><img src="images/info/desktop/desktop.png" /></a>
-				<div class="caption"><%= application.name %></div>
+				<a href="images/info/desktop/desktop.png" target="_blank" class="lightbox" title="Desktop"><img src="images/info/desktop/desktop.png" /></a>
+				<div class="caption">Desktop</div>
+			</div>
+			<div class="figure" style="margin-right:-100px; margin-top:-250px">
+				<a href="images/info/mobile/iphone.png" target="_blank" class="lightbox" title="Mobile"><img src="images/info/mobile/iphone.png" /></a>
+				<div class="caption">Mobile</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section">
+	<div class="row">
+		<div class="col-sm-6">
+			<h2><i class="fa fa-circle-check"></i><%= application.name %> Advantages</h2>
+			<ul>
+				<li>Self-hostable (on-prem or in the cloud)</li>
+				<li>Free</li>
+				<li>Easy to use and install</li>
+				<li>Platform independent</li>
+				<li>Open Source</li>
+				<li>Secure</li>
+				<li>Private</li>
+			</ul>
+		</div>
+		<div class="col-sm-6">
+			<div class="figure">
+				<a href="#downloads">
+					<img src="images/logos/icon.svg" />
+				</a>
+				<div class="caption"><i class="fa fa-heart" style="color:hotpink; margin-right:5px"></i>Adopt Me!</div>
 			</div>
 		</div>
 	</div>
@@ -22,14 +51,13 @@
 	<div class="row">
 		<div class="col-sm-6">
 			<h2><i class="fa fa-dollar-sign"></i>It's Free!</h2>
-			<p><%= application.name %> is <a href="#policies/terms-of-use">free to use</a> for non-commmercial applications.  It's also <a href="#downloads">free to download</a> and run on your own server. </p>
+			<p><%= application.name %> is 100% completely free to <a href="#installation">download and run</a> on your own server. </p>
 		</div>
 		<div class="col-sm-6">
 			<div class="figure">
 				<a href="#downloads">
-					<img style="width:150px" src="images/logos/icon.svg" />
+					<img src="images/welcome/free-icon.svg" />
 				</a>
-				<div class="caption"><i class="fa fa-heart" style="color:hotpink; margin-right:5px"></i>Adopt Me!</div>
 			</div>
 		</div>
 	</div>
@@ -44,7 +72,7 @@
 		<div class="col-sm-6">
 			<div class="figure">
 				<a href="#downloads">
-					<img height="175px" src="images/logos/rocketkitty-icon.svg" />
+					<img src="images/logos/rocketkitty-icon.svg" />
 				</a>
 				<div class="caption">
 					Launch Me!
@@ -62,7 +90,7 @@
 		</div>
 		<div class="col-sm-6">
 			<div class="figure">
-				<img width="150px" src="images/welcome/camera.svg" />
+				<img src="images/welcome/camera.svg" />
 			</div>
 		</div>
 	</div>
@@ -76,7 +104,7 @@
 		</div>
 		<div class="col-sm-6">
 			<div class="figure">
-				<img height="250px" src="images/welcome/slide-show.svg" />
+				<img src="images/welcome/slide-show.svg" />
 			</div>
 		</div>
 	</div>
@@ -90,8 +118,10 @@
 		</div>
 		<div class="col-sm-6">
 			<div class="figure">
-				<img height="200px" src="images/welcome/globe-icon.svg" />
-				<img height="100px" src="images/welcome/travel-kitty-photo.svg" style="transform:rotate(-30); margin-left:-100px" />
+				<div class="globe-photo">
+					<img height="200px" src="images/welcome/globe-icon.svg" />
+					<img height="100px" src="images/welcome/travel-photo.svg" style="transform:rotate(-30); margin-left:-100px" />
+				</div>
 			</div>
 		</div>
 	</div>
@@ -159,7 +189,7 @@
 		</div>
 		<div class="col-sm-6">
 			<div class="figure">
-				<img height="200px" src="images/welcome/safe.svg" />
+				<img src="images/welcome/safe.svg" />
 			</div>
 		</div>
 	</div>
